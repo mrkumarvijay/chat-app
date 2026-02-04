@@ -8,17 +8,13 @@
     <style>
         body {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            min-height: 100vh;
             margin: 0;
-            padding: 20px;
         }
         .auth-container {
             background: white;
             border-radius: 16px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
             padding: 40px;
             width: 100%;
             max-width: 420px;
@@ -35,8 +31,8 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="auth-container">
+    <div class="min-vh-100 d-flex justify-content-center align-items-center">
+        <div class="auth-container border-0 shadow-lg rounded-4">
             <div class="text-center mb-4">
                 <h2>Chat Application</h2>
                 <p class="text-muted">Login or register to start chatting</p>
