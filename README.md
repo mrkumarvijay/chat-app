@@ -122,19 +122,6 @@ REVERB_SCHEME=https
 
 Uses Laravel Passport for OAuth2 authentication. The API uses Bearer tokens for authentication.
 
-## 🧪 Testing
-
-### Manual Testing
-
-1. **Register Users**: Create 2+ user accounts
-2. **Login**: Authenticate and get JWT token
-3. **Real-time Chat**: Open 2 browser sessions, send messages between users
-4. **Notifications**: Test notification system when user is offline
-
-### Postman Collection
-
-Import the Postman collection from `docs/postman/` for API testing.
-
 ## 🔍 Troubleshooting
 
 ### Common Issues
